@@ -70,47 +70,47 @@ class MyList:
         """Reverse the elements of the list in place."""
         pass
 
-    def __add__(self, other):
+    def __add__(self, other):      #a=a+other
         pass
 
-    def __iadd__(self, other):
+    def __iadd__(self, other):   # a+=other
         pass
 
-    def __le__(self, other):
+    def __le__(self, other):   #a<=other
         pass
 
-    def __lt__(self, other):
+    def __lt__(self, other):  #a<other
         pass
 
-    def __eq__(self, other):
+    def __eq__(self, other): #a==other
         pass
 
-    def __ne__(self, other):
+    def __ne__(self, other):  #a!=other
         pass
 
-    def __ge__(self, other):
+    def __ge__(self, other): #a>=other
         pass
 
-    def __gt__(self, other):
+    def __gt__(self, other):  #a>other
         pass
 
-    def __contains__(self, item):
+    def __contains__(self, item):  # item in a
         pass
 
-    def __delitem__(self, key):
+    def __delitem__(self, key):  # del a(key)
         pass
 
-    def __getitem__(self, item):
+    def __getitem__(self, item):  #a[item]
         pass
 
-    def __setitem__(self, key, value):
+    def __setitem__(self, key, value):  #a[key]=value
         pass
 
     def __del__(self):
         pass
 
-    def __str__(self):
+    def __str__(self):     #str(a)
         pass
 
-    def __bool__(self):
+    def __bool__(self):  #bool(a)
         pass
